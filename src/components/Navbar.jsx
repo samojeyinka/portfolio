@@ -6,7 +6,7 @@ const Navbar = () => {
     const [toggle,setToggle] = useState(false);
     const handleClick = () => setToggle(!toggle);
   return (
-    <div className='w-full h-[70px] bg-white drop-shadow fixed  z-10'>
+    <div className='w-full h-[70px] bg-red-500 drop-shadow fixed  z-10'>
         <div className='w-full h-full flex justify-between items-center m-auto max-w-[1240px]'>
             <div className='flex item-center'>
                 <h3 className='font-bold md:text-[1.3rem]  text-[1.1rem] cursor-pointer ml-5'>Sam.dev👨‍💻</h3>
