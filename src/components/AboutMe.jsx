@@ -26,13 +26,13 @@ const AboutMe = () => {
           <div className='text_side max-w-[1020px]'>
 
             <h2><a href="" className='font-bold text-xl text-[#147efb] ab-m-t'>ABOUT ME</a></h2>
-              <h4 className='font-bold text-xl text-[#000] text-center items-center'>Samuel Ojeyinka</h4>
-            <h2 className='font-bold text-2xl py-4 ab-me'>A dedicated Front-end Developer
+              <h4 className='font-bold text-md text-[#000] text-center items-center'>Samuel Ojeyinka</h4>
+            <h2 className='font-bold text-2xl py-4 ab-me'>A dedicated React-Frontend Developer
               based in Nigeria, Osun 📍
               </h2>
               <p className='md:min-w-[500px] text-justify ab-m-p'>
               As a Front-End Developer, I possess an impressive 
-              arsenal of skills in HTML, CSS, JavaScript, React JS, Tailwind,Bootstrap
+              arsenal of skills in HTML, CSS, JavaScript, React.JS, Tailwind,Bootstrap
                and I also create full stack web applications using CMS like Strapi and GraphCMS. I excel in designing and maintaining responsive
                 websites that offer a smooth user experience. My expertise 
                 lies in crafting dynamic, engaging interfaces through writing 
