@@ -1,8 +1,455 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,400&display=swap');
 
 
+.home__content{
+    grid-template-columns: 116px repeat(2,1fr);
+    padding-top:0rem ;
+    column-gap: 2rem;
+    align-items: center;
+}
 
+.home__social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 0.7rem;
+}
+
+
+.home_social_icon{
+
+    font-size: 1.5rem;
+    color: var(--title-color);
+    transition: .5s; 
+
+}
+
+.home_title{
+    font-size: var(--big-font-size);
+    margin-bottom: 0.25;
+}
+
+.home_hand{
+    width: 38px;
+    height: 38px;
+    margin-left: 0.4rem;
+}
+
+.home_subtitle{
+    position: relative;
+    font-size: var(--h3-font-size);
+    padding-left: 5.4rem;
+    font-weight: var(--font-normal);
+    margin-bottom: 1rem;
+}
+
+.home_subtitle::before{
+    content: '';
+    width: 70px;
+    height: 1.5px;
+    background: var(--title-color);
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+
+
+
+
+.home_description{
+   
+    margin-bottom: 2rem;
+}
+
+.home_social_icon:hover{
+    color: #147efb;
+}
+
+
+.home__img{
+    background: url(../assets/profile.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 0px rgb(255 255 255 / 30%);
+    order: 1;
+    justify-self: center;
+    width:  300px;
+    height: 300px;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    border: 4px solid black;
+    animation: profile_animate 5s ease-in-out infinite 1s;
+}
+
+
+@keyframes profile_animate{
+    0%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50%{
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    100%{
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+.ab-m-p{
+    font-weight:400;
+    font-size: 1rem;
+    
+}
+
+
+
+
+@media screen and (max-width:992px) {
+
+    .home__content{
+        grid-template-columns: 100px repeat(2, 1fr);
+        column-gap: 1.25rem;
+    }
+
+    .home_hand{
+        width: 26px;
+        height: 26px;
+      
+    }
+    
+    .home_subtitle{
+      
+        padding-left: 3.75rem;
+        margin-bottom: 1rem;
+    }
+
+
+    .home_subtitle::before{
+        width: 42px;
+        top: 0.8rem;
+    }
+    .home_description{
+        max-width:300px ;
+        margin-bottom: 2.5rem;
+    }
+
+    .home__img{
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 0px rgb(255 255 255 / 30%);
+    }
+
+    
+    
+}
+
+.FaFo:hover{
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .home__content{
+        grid-template-columns:0.5fr 3fr;
+        column-gap: 3.5rem;
+    }
+
+    .home__img{
+        order: initial;
+        justify-self: flex-start;
+    }
+
+    .home_title{
+        font-size: 2.1rem;
+        margin-bottom: 0.25;
+    }
+    .home_data{
+        grid-column:1/3;
+        justify-self: center;
+    }
+
+    .home__img{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .ab-m-t{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .ab-me{
+        text-align: center;
+    }
+
+    .ab-m-p{
+        font-weight: light;
+        font-size: 1rem;
+        
+    }
+
+
+
+    .contact-me{
+        flex-direction: column;
+        gap:4rem;
+    }
+
+
+    .locaton{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mail{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /* ==========footr-mobile========= */
+
+  
+    .footer-flex{
+        flex-direction: column;
+        gap: 2rem;
+        
+        
+    }
+
+    .footer-c{
+        font-size: .8rem;
+    }
+
+    
+}
+
+
+@media screen and (max-width:576px) {
+    
+    .home__social{
+        display: none;
+        
+    }
+
+    .home__socialM{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+   
+    
+
+   
+}
+
+
+@media screen and (max-width:350px) {
+
+    .home__img{
+        width: 180px;
+        height: 180px;
+    }
+
+    .home_hand{
+        width: 22px;
+        height: 22px;
+    }
+
+    .ul-foot{
+        flex-direction: column;
+    }
+
+
+    
+    
+}
+
+/* =======Stack styling=========== */
+
+.stack-box{
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: center;
+    padding: .7rem;
+    position: relative;
+}
+
+
+.tech_p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.tech_line{
+    background: var(--text-color);
+    width: 2.5px;
+    height: 25px;
+    
+}
+
+
+@media screen and (max-width:1200px){
+
+    .stack-box{
+        
+        width: 60px;
+        height: 60px;
+
+    }
+}
+
+@media screen and (max-width:1060px){
+    .tech_stack_container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tech_p{
+        flex-direction: column;
+    }
+    .tech_line{
+        background: var(--text-color);
+        width: 70px;
+        height: 2.5px;
+        
+    }
+
+
+    /* =============About me on the home screen======== */
+
+    .image_side{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+
+    .home__img{
+        margin-left: 3.5rem;
+    }
+
+    .home_description{
+       text-align: justify;
+    }
+
+    .button--flex{
+        justify-content: center;
+        align-items: center;
+        
+        width: 80%;
+    }
+    .tech_stack_container{
+        flex-direction: column;
+    }
+
+
+   
+
+    .stack-box{
+    
+        width: 55px;
+        height: 55px;
+
+    }
+
+    /* ================about me home h2 styling=======  */
+    .ab-me{
+        font-size: 1.3rem;
+    }
+
+    .image_side{
+        width: 100%;
+        height: 260px;
+        
+    }
+    
+    .image_side img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    
+
+
+}
+
+
+
+
+
+/* =============About home auto writing styling========= */
+
+
+.texta{
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+}
+
+.sec-texta{
+    color: red;
+}
+
+.sec-texta::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    border-left: 3px solid red;
+    width: 100%;
+    height: 100%;
+    animation: animate 4s steps(12) infinite;
+
+}
+
+@keyframes animate {
+    40%,60%{
+        left: 100%;
+    }
+
+    100%{
+        left: 0%;
+    }
+    
+}
+
+
+
+/* ======================PROJECTS CSS======= */
+
+.lang-used span{
+    margin: 8px;
+    
+}
+
+
+.lang-used-b{
+   
+    width: 100%;
+    padding:8px;
+    overflow: hidden;
+}
 .home__content{
     grid-template-columns: 116px repeat(2,1fr);
     padding-top:0rem ;
