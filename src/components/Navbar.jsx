@@ -28,7 +28,7 @@ const Navbar = () => {
             </div>
 
             <div className='md:hidden'>
-               <img src={!toggle? menu :close} onClick={handleClick} className='w-[30px] h-[35px] cursor-pointer mr-8'/>
+               <img src={!toggle? menu :close} onClick={handleClick} className='w-[30px] h-[35px] cursor-pointer mr-8 mobile-icon'/>
             </div>
 
             
