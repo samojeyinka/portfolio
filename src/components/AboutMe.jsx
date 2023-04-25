@@ -26,7 +26,7 @@ const AboutMe = () => {
           <div className='text_side max-w-[1020px]'>
 
             <h2><a href="" className='font-bold text-xl text-[#147efb] ab-m-t'>ABOUT ME</a></h2>
-              <h1 className='font-bold text-xl text-[#000]>Samuel Ojeyinka</h1>
+              <h1 className='font-bold text-xl text-[#000]'>Samuel Ojeyinka</h1>
             <h2 className='font-bold text-2xl py-4 ab-me'>A dedicated Front-end Developer
               based in Nigeria, Osun 📍
               </h2>
