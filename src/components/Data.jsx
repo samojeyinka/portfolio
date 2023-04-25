@@ -5,7 +5,7 @@ import SocialM from './Socialmobile';
 
 const Data = () => {
   return (
-    <div className='home_data md:mt-[70px] max-w-[1020px] m-auto'>
+    <div className='home_data md:mt-[70px] max-w-[1020px]'>
       <h1 className="home_title flex items-center">Sam Ojeyinka
       <svg
                   width="36"
