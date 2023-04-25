@@ -14,7 +14,7 @@ function Main() {
 
             <Social className/>
             <div className='home__img md:mt-[40px] mt-[70px]'> </div>
-            <Data/>
+            
             
         </div>
 
