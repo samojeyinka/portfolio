@@ -77,7 +77,7 @@ const Projects = () => {
     <h3 className='pro-title  text-[1.1rem] text-black mb-4'>{prob.proTitle}</h3>
     <p className='pro-decsc'>{prob.proDes}</p>  
 
-     <div className="lang-used grid grid-cols-2 w-[110%] m-auto py-6 ">
+     <div className="lang-used grid grid-cols-2 md:grid-cols-3 w-[110%] m-auto py-6 ">
         <span className='lang-used-b bg-white drop-shadow-md text-black'>{prob.langused1}</span>
         <span className='lang-used-b bg-white drop-shadow-md text-black'>{prob.langused2}</span>
         <span className='lang-used-b bg-white drop-shadow-md text-black'>{prob.langused3}</span>
