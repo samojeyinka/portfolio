@@ -106,6 +106,10 @@
 
 @media screen and (max-width:992px) {
     
+    
+    .home_data{
+        display:none;
+    }
 
     .home__content{
         grid-template-columns: 100px repeat(2, 1fr);
