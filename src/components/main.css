@@ -238,6 +238,10 @@
     }
 
     
+     .ul-foot{
+        flex-direction: column;
+    }
+    
 }
 
 
@@ -255,7 +259,9 @@
         margin-bottom: 2rem;
     }
 
-   
+    .ul-foot{
+        flex-direction: column;
+    }
     
 
    
