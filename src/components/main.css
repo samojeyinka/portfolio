@@ -8,7 +8,7 @@
     padding-top:0rem ;
     column-gap: 2rem;
     align-items: center;
-    margin-right:2rem;
+    
     
     
    
@@ -158,6 +158,12 @@
 
 
 @media screen and (max-width:768px) {
+    
+    .home__content{
+         margin-right:2rem;
+    }
+    
+
 
     a,li{
     cursor:none;
