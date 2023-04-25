@@ -5,6 +5,9 @@ import {menu,close, menuIcon} from '../assets'
 const Navbar = () => {
     const [toggle,setToggle] = useState(false);
     const handleClick = () => setToggle(!toggle);
+    
+    const openNAV = () => {
+        setToggle(!toggle)
   return (
     <div className='w-full h-[70px] bg-white drop-shadow fixed  z-10'>
         <div className='w-full h-full flex justify-between items-center m-auto max-w-[1240px]'>
@@ -30,10 +33,10 @@ const Navbar = () => {
         </div>
 
         <ul className={toggle?'togga md:hidden flex-cols  font-semibold text-[#3a3b3e] text-[1.2rem] py-5 px-5 bg-white fixed ':'hidden'}>
-                    <li><a href="#" className='hover:text-[#147efb]'>Home</a></li>
-                    <li><a href="#about" className='hover:text-[#147efb]'>About</a></li>
-                    <li><a href="#projects" className='hover:text-[#147efb]'>Projects</a></li>
-                    <li><a href="#contact" className='hover:text-[#147efb]'>Contact</a></li>
+                    <li><a href="#" className='hover:text-[#147efb]' onClick={openNAV} >Home</a></li>
+                    <li><a href="#about" className='hover:text-[#147efb]' onClick={openNAV} >About</a></li>
+                    <li><a href="#projects" className='hover:text-[#147efb]' onClick={openNAV} >Projects</a></li>
+                    <li><a href="#contact" className='hover:text-[#147efb]' onClick={openNAV} >Contact</a></li>
                 </ul>
 
     </div>
