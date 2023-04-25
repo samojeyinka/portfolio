@@ -60,7 +60,7 @@ const Data = () => {
       </h1>
 
       <h3 className="home_subtitle">React Developer</h3>
-      <p className="home_description w-[80%]">
+      <p className="home_description">
        I'm a creative frontend web developer based in Nigeria Osun State, and I'm very passionate and dedicated to my work. 📍
        </p>
       <SocialM/>
