@@ -14,7 +14,7 @@ const Projects = () => {
             "id":1,
             'coverImg':proto,
             'proTitle':'CAR RENTAL 🚗',
-            'proDes':' online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.',
+            'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
             'langused1':'React',
             'langused2':'JS',
             'langused3':'Tailwind',
@@ -87,8 +87,8 @@ const Projects = () => {
     
 
     <div className='action-links flex justify-around md:py-4 py-2'>
-    <a href={prob.codeLink}> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[1rem]  cursor-pointer hover:text-[#147efb]'> Code <FaGithub className='text-[2rem]'/> </span></a>
-    <a href={prob.demoLink}> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[.9rem]  cursor-pointer hover:text-[#147efb]'>Live Demo <FaRegCaretSquareRight className='text-[1.8rem]'/></span></a>
+    <a href={prob.codeLink} target="_blank"> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[1rem]  cursor-pointer hover:text-[#147efb]'> Code <FaGithub className='text-[2rem]'/> </span></a>
+    <a href={prob.demoLink} target="_blank"> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[.9rem]  cursor-pointer hover:text-[#147efb]'>Live Demo <FaRegCaretSquareRight className='text-[1.8rem]'/></span></a>
 
     </div>
 
@@ -103,49 +103,11 @@ const Projects = () => {
 </div>
                
                
-                )}
+                )};
             
             
-{/*             
-            <div className='pro-box w-full bg-white md:h-[27rem]  rounded-3xl drop-shadow-md grid gap-2 md:grid-cols-2 items-center px-5'>
-               
-
-               
-                <div className='pro-thumbnail  bg-white w-full rounded-3xl drop-shadow-md m-auto h-[94%]'>
-
-                    <img src={proto} className='w-full m-auto rounded-3xl'/>
-
-                </div>
-
-                <div className='pro-details md:w-[70%]   w-[85%] m-auto text-center md:h-[85%] h-[100%]'>
-
-                    <h3 className='pro-title  text-[1.1rem] text-black mb-4'>CAR RENTAL 🚗</h3>
-                    <p className='pro-decsc'>A car rental website is an 
-                    online platform that allows users to rent
-                     cars for personal 
-                    or business use. The website provides
-                     an interface for searching, comparing, 
-                     and reserving cars.</p>  
-
-                     <div className="lang-used grid grid-cols-3 w-[110%] m-auto py-6 ">
-                        <span className='lang-used-b bg-white drop-shadow-md text-black'>React</span>
-                        <span className='lang-used-b bg-white drop-shadow-md text-black'>Tailwind</span>
-                        <span className='lang-used-b bg-white drop-shadow-md text-black'>javascript</span>
-                        <span className='lang-used-b bg-white drop-shadow-md text-black'>SCSS</span>
-                        <span className='lang-used-b bg-white drop-shadow-md text-black'>Next</span>
-                     </div>
-                    
-
-                    <div className='action-links flex justify-around md:py-4 py-2'>
-                    <a href='https://face.com'> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[1rem]  cursor-pointer hover:text-[#147efb]'> Code <FaGithub className='text-[2rem]'/> </span></a>
-                    <a href='https://face.com'> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[.9rem]  cursor-pointer hover:text-[#147efb]'>Live Demo <FaRegCaretSquareRight className='text-[1.8rem]'/></span></a>
-
-                    </div>
-
-                </div>
 
 
-            </div> */}
         
         </div>
      </div>
