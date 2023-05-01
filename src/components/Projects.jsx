@@ -1,5 +1,5 @@
 import React from 'react'
-import { proto,coinPhase } from '../assets'
+import { proto,coinPhase,proimg1 } from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
 
         {
             "id":1,
-            'coverImg':proto,
+            'coverImg':proimg1,
             'proTitle':'CAR RENTAL 🚗',
             'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
             'langused1':'React',
