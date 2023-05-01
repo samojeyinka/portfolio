@@ -20,8 +20,8 @@ const Projects = () => {
             'langused3':'Tailwind',
             'langused4':'CSS',
             'langused5':'HTML',
-            'codeLink':'https://facebook.com',
-            'demoLink':'https://facebook.com',
+            'codeLink':'https://github.com/samojeyinka/Car-renting-app',
+            'demoLink':'https://carsrental.vercel.app/',
 
         },
 
