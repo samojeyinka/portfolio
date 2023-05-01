@@ -13,7 +13,7 @@ import css from './css.png';
 import aboutH from './about-h.jpg';
 import proto from './proto.png';
 import coinPhase from './coinphase.png';
-import proimg1 from './proimg1.png';
+import proimg from './proimg1.png';
 
 
 
@@ -35,7 +35,7 @@ export{
     aboutH,
     proto,
     coinPhase,
-    proimg1,
+    proimg,
 
 
 }
