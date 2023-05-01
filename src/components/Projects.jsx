@@ -1,5 +1,5 @@
 import React from 'react'
-import { proto,coinPhase,proimg1 } from '../assets/index'
+import { proto,coinPhase,proimg } from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -12,7 +12,7 @@ const Projects = () => {
 
         {
             "id":1,
-            'coverImg':proimg1,
+            'coverImg':proimg,
             'proTitle':'CAR RENTAL 🚗',
             'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
             'langused1':'React',
@@ -29,7 +29,7 @@ const Projects = () => {
         
         {
             "id":2,
-            'coverImg':,
+            'coverImg':coinPhase,
             'proTitle':'coinzoo 🪙 coming soon',
             'proDes':' Coinzoo is a crypto app that allows users to search for information about various cryptocurrencies in real-time',
             'langused1':'React',
