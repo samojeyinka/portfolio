@@ -1,5 +1,5 @@
 import React from 'react'
-import { proto,coinPhase,proimg } from '../assets'
+import {coinPhase, proimg} from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
