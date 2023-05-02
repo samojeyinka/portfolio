@@ -14,7 +14,8 @@ import aboutH from './about-h.jpg';
 import proto from './proto.png';
 import coinPhase from './coinphase.png';
 import comingsoon from './comingsoon.jpg';
-import proimg from './proimg.jpg';
+import proimg from './projimg.jpg';
+
 
 
 
