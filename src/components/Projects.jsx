@@ -1,5 +1,5 @@
 import React from 'react'
-import {coinPhase, proimg} from '../assets'
+import {proimg} from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -29,7 +29,7 @@ const Projects = () => {
         
         {
             "id":2,
-            'coverImg':coinPhase,
+            'coverImg':,
             'proTitle':'coinzoo 🪙 coming soon',
             'proDes':' Coinzoo is a crypto app that allows users to search for information about various cryptocurrencies in real time',
             'langused1':'React',
