@@ -31,7 +31,7 @@ const Projects = () => {
             "id":2,
             'coverImg':coinPhase,
             'proTitle':'coinzoo 🪙 coming soon',
-            'proDes':' Coinzoo is a crypto app that allows users to search for information about various cryptocurrencies in real-time',
+            'proDes':' Coinzoo is a crypto app that allows users to search for information about various cryptocurrencies in real time',
             'langused1':'React',
             'langused2':'JS',
             'langused3':'HTML',
