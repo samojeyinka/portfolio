@@ -14,6 +14,7 @@ import aboutH from './about-h.jpg';
 import proto from './proto.png';
 import coinPhase from './coinphase.png';
 import proimg from './proimg1.png';
+import comingsoon from './comingsoon.jpg';
 
 
 
@@ -36,6 +37,7 @@ export{
     proto,
     coinPhase,
     proimg,
+    comingsoon,
 
 
 }
