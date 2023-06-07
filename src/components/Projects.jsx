@@ -9,6 +9,21 @@ const Projects = () => {
 
 
     const ProjE = [
+        
+        {
+            "id":1,
+            'coverImg':darkcoinie,
+            'proTitle':'coinie 🪙',
+            'proDes':'Coinie  allows users to register, login, and monitor the value,track & prices of various cryptocurrencies.Save favorite cryptos,Buy cryptos,edit profile & more',
+            'langused1':'React',
+            'langused2':'JS',
+            'langused3':'HTML',
+            'langused4':'CSS',
+            'langused5':'API',
+            'codeLink':'https://github.com/samojeyinka/coinie',
+            'demoLink':'https://coinie.vercel.app/',
+
+        },
 
         {
             "id":2,
@@ -22,23 +37,6 @@ const Projects = () => {
             'langused5':'HTML',
             'codeLink':'https://github.com/samojeyinka/Car-renting-app',
             'demoLink':'https://carsrental.vercel.app/',
-
-        },
-
-
-        
-        {
-            "id":1,
-            'coverImg':darkcoinie,
-            'proTitle':'coinie 🪙',
-            'proDes':'Coinie  allows users to register, login, and monitor the value,track & prices of various cryptocurrencies.Save favorite cryptos,Buy cryptos,edit profile & more',
-            'langused1':'React',
-            'langused2':'JS',
-            'langused3':'HTML',
-            'langused4':'CSS',
-            'langused5':'',
-            'codeLink':'https://github.com/samojeyinka/coinie',
-            'demoLink':'https://coinie.vercel.app/',
 
         },
 
