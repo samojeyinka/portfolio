@@ -15,6 +15,9 @@ import proto from './proto.png';
 import coinPhase from './coinphase.png';
 import comingsoon from './comingsoon.jpg';
 import proimg from './projimg.jpg';
+import lightcoinie from './lightcoinie.jpg';
+import darkcoinie from './darkcoinie.jpg';
+
 
 
 
@@ -39,6 +42,8 @@ export{
     coinPhase,
     proimg,
     comingsoon,
+    lightcoinie,
+    darkcoinie,
 
 
 }
