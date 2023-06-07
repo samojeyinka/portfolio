@@ -1,5 +1,5 @@
 import React from 'react'
-import {proimg,comingsoon} from '../assets'
+import {proimg,comingsoon,lightcoinie,darkcoinie} from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -11,7 +11,7 @@ const Projects = () => {
     const ProjE = [
 
         {
-            "id":1,
+            "id":2,
             'coverImg':proimg,
             'proTitle':'CAR RENTAL 🚗',
             'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
@@ -28,17 +28,17 @@ const Projects = () => {
 
         
         {
-            "id":2,
-            'coverImg':comingsoon,
-            'proTitle':'coinzoo 🪙 coming soon',
-            'proDes':' Coinzoo is a crypto app that allows users to search for information about various cryptocurrencies in real time',
+            "id":1,
+            'coverImg':darkcoinie,
+            'proTitle':'coinie 🪙',
+            'proDes':'Coinie  allows users to register, login, and monitor the value,track & prices of various cryptocurrencies.Save favorite cryptos,Buy cryptos,edit profile & more',
             'langused1':'React',
             'langused2':'JS',
             'langused3':'HTML',
             'langused4':'CSS',
-            'langused5':'Bootstrap',
-            'codeLink':'',
-            'demoLink':'',
+            'langused5':'',
+            'codeLink':'https://github.com/samojeyinka/coinie',
+            'demoLink':'https://coinie.vercel.app/',
 
         },
 
@@ -87,7 +87,7 @@ const Projects = () => {
     
 
     <div className='action-links flex justify-around md:py-4 py-2'>
-    <a href={prob.codeLink} target="_blank"> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[1rem]  cursor-pointer hover:text-[#147efb]'> Code <FaGithub className='text-[2rem]'/> </span></a>
+    <a href={prob.codeLink} target="_blank"> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[1rem]  cursor-pointer hover:text-[#147efb]'> Source Code <FaGithub className='text-[2rem]'/> </span></a>
     <a href={prob.demoLink} target="_blank"> <span className='flex  items-center gap-1 text-black md:text-[1.1rem] text-[.9rem]  cursor-pointer hover:text-[#147efb]'>Live Demo <FaRegCaretSquareRight className='text-[1.8rem]'/></span></a>
 
     </div>
