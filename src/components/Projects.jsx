@@ -9,9 +9,23 @@ const Projects = () => {
 
 
     const ProjE = [
+                {
+            "id":1,
+            'coverImg':comingsoon,
+            'proTitle':'OqaskeAI 🤖',
+            'proDes':'AI that allow people to generate quality and purposeful images online,gives coding solutions,answers questions,gives recommendations and more',
+            'langused1':'React',
+            'langused2':'JS',
+            'langused3':'HTML',
+            'langused4':'CSS',
+            'langused5':'OpenAI',
+            'codeLink':'https://github.com/samojeyinka',
+            'demoLink':'https://samojeyinka.vercel.app/',
+
+        },
         
         {
-            "id":1,
+            "id":2,
             'coverImg':darkcoinie,
             'proTitle':'coinie 🪙',
             'proDes':'Coinie  allows users to register, login, and monitor the value,track & prices of various cryptocurrencies.Save favorite cryptos,Buy cryptos,edit profile & more',
@@ -26,7 +40,7 @@ const Projects = () => {
         },
 
         {
-            "id":2,
+            "id":3,
             'coverImg':proimg,
             'proTitle':'CAR RENTAL 🚗',
             'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
