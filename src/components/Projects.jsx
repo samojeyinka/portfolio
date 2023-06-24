@@ -18,7 +18,7 @@ const Projects = () => {
             'langused2':'JS',
             'langused3':'HTML',
             'langused4':'CSS',
-            'langused5':'OpenAI',
+            'langused5':'PixabayAPI',
             'codeLink':'https://github.com/samojeyinka/imagene-AI',
             'demoLink':'https://imagene.vercel.app/',
 
