@@ -610,9 +610,9 @@
 
 
 @media screen and (max-width:768px) 
-    li,a{
+    li, a {
     cursor:pointer;
-}
+     }
     
     .home__content{
          margin-right:2rem;
