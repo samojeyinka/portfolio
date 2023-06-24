@@ -44,6 +44,7 @@ export{
     proimg,
     comingsoon,
     lightcoinie,
+    imagene,
     darkcoinie,
 
 
