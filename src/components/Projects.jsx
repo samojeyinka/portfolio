@@ -1,5 +1,5 @@
 import React from 'react'
-import {proimg,comingsoon,lightcoinie,darkcoinie} from '../assets'
+import {proimg,comingsoon,lightcoinie,darkcoinie,imagene} from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -11,16 +11,16 @@ const Projects = () => {
     const ProjE = [
                 {
             "id":1,
-            'coverImg':comingsoon,
-            'proTitle':'OqaskeAI 🤖',
-            'proDes':'AI that allow people to generate quality and purposeful images online,gives coding solutions,answers questions,gives recommendations and more',
+            'coverImg':imagene,
+            'proTitle':'imagene AI 🤖',
+            'proDes':'Introducing Imagene, the ultimate AI image generator. Simply enter your keywords or ideas, and watch as Imagene transforms them into breathtaking visuals. ',
             'langused1':'React',
             'langused2':'JS',
             'langused3':'HTML',
             'langused4':'CSS',
             'langused5':'OpenAI',
-            'codeLink':'https://github.com/samojeyinka',
-            'demoLink':'https://samojeyinka.vercel.app/',
+            'codeLink':'https://github.com/samojeyinka/imagene-AI',
+            'demoLink':'https://imagene.vercel.app/',
 
         },
         
