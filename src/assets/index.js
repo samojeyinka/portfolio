@@ -17,6 +17,7 @@ import comingsoon from './comingsoon.jpg';
 import proimg from './projimg.jpg';
 import lightcoinie from './lightcoinie.jpg';
 import darkcoinie from './darkcoinie.jpg';
+import imagene from './imagene.jpeg';
 
 
 
