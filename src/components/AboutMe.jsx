@@ -27,20 +27,11 @@ const AboutMe = () => {
 
             <h2><a href="" className='font-bold text-xl text-[#147efb] ab-m-t'>ABOUT ME</a></h2>
               <h4 className='font-bold text-md text-[#000] text-center items-center'>Samuel Ojeyinka</h4>
-            <h2 className='font-bold text-2xl py-4 ab-me'>A dedicated React-Frontend Developer
+            <h2 className='font-bold text-2xl py-4 ab-me'>A dedicated Fullstack Developer 
               based in Nigeria, Osun 📍
               </h2>
               <p className='md:min-w-[500px] text-justify ab-m-p'>
-              As a Front-End Developer, I possess an impressive 
-              arsenal of skills in HTML, CSS, JavaScript, React.JS, Tailwind,Bootstrap
-               and I also create full stack web applications using CMS like Strapi and GraphCMS. I excel in designing and maintaining responsive
-                websites that offer a smooth user experience. My expertise 
-                lies in crafting dynamic, engaging interfaces through writing 
-                clean and optimized code and utilizing cutting-edge development
-                 tools and techniques. I am also a team player who thrives in
-                  collaborating with cross-functional teams to produce 
-                  outstanding web applications.
-              </p>
+Dynamic full-stack developer with a diverse skill set encompassing Ruby on Rails, Node.js, Express, React, and more. Experienced in developing a wide range of web applications and APIs. Proficient in database management with MySQL, MongoDB, and PostgreSQL. Skilled in front-end development with HTML, CSS, and JavaScript frameworks. Proven ability to deliver high-quality, user-friendly applications while staying up-to-date with the latest technologies and trends. Passionate about creating innovative solutions and collaborating with like-minded professionals to drive business success. Let's connect and discuss how I can contribute to your team!              </p>
 
           </div>
 
