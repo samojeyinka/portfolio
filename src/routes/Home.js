@@ -5,6 +5,7 @@ import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 import Contact from '../components/ContactCP';
+import Experience from '../components/Experience';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
         <Navbar/>
         <Main/>
         <AboutMe/>
+        <Experience/>
         <Projects/>
         <Contact/>
         <Footer/>

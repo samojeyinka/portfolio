@@ -1,6 +1,13 @@
 import close from './close.svg';
 import menu from './menu.svg';
 import menuIcon from './menuIcon.png';
+import rails from './rails.png';
+import express from './express.png';
+import ruby from './ruby.png';
+import node from './node.png';
+import mysql from './mysql.png';
+import postgressql from './postgressql.png';
+import monogodb from './mongodb.png';
 import JS from './JS.png';
 import HTML5 from './HTML5_.png';
 import  bt from './bt.png';
@@ -18,6 +25,14 @@ import proimg from './projimg.jpg';
 import lightcoinie from './lightcoinie.jpg';
 import darkcoinie from './darkcoinie.jpg';
 import imagene from './imagene.jpeg';
+import jobhash from './jobhash.jpeg';
+import moochat from './moochat.png';
+import istore from './istore.png';
+import niravest from './niravest.jpeg';
+import mopp from './mopp.png';
+import isharp from './isharp.png';
+import ect from './ect.jpeg';
+import styleit from './styleit.jpeg';
 
 
 
@@ -46,6 +61,21 @@ export{
     lightcoinie,
     imagene,
     darkcoinie,
+    rails,
+    express,
+    ruby,
+    node,
+    mysql,
+    postgressql,
+    monogodb,
+    jobhash,
+    moochat,
+    istore,
+    niravest,
+    mopp,
+    isharp,
+    ect,
+    styleit
 
 
 }

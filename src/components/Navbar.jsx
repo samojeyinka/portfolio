@@ -21,6 +21,7 @@ const Navbar = () => {
                 <ul className='hidden md:flex font-bold text-[#3a3b3e] text-[1rem]'>
                     <li className='hover:text-[#147efb]'> <a href="#">Home</a></li>
                     <li className='hover:text-[#147efb]'> <a href="#about">About</a></li>
+                    <li className='hover:text-[#147efb]'>  <a href="#experience">Experience</a></li>
                     <li className='hover:text-[#147efb]'>  <a href="#projects">Projects</a></li>
                     <li  className='hover:text-[#147efb]'>   <a href="#contact">Contact </a></li>
                 </ul>
@@ -37,6 +38,7 @@ const Navbar = () => {
         <ul className={toggle?'togga md:hidden flex-cols  font-semibold text-[#3a3b3e] text-[1.2rem] py-5 px-5 bg-white fixed ':'hidden'}>
                     <li><a href="#" className='hover:text-[#147efb]' onClick={openNav}>Home</a></li>
                     <li><a href="#about" className='hover:text-[#147efb]' onClick={openNav}>About</a></li>
+                    <li><a href="#experience" className='hover:text-[#147efb]' onClick={openNav}>Experience</a></li>
                     <li><a href="#projects" className='hover:text-[#147efb]' onClick={openNav}>Projects</a></li>
                     <li><a href="#contact" className='hover:text-[#147efb]' onClick={openNav}>Contact</a></li>
                 </ul>

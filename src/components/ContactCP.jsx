@@ -15,7 +15,7 @@ const ContactCP = () => {
                     </span>
                     <span>
                         <h1 className='text-xl'>Location</h1>
-                        <p>Osun,Nigeria</p>
+                        <p>Osogbo, Osun. Nigeria</p>
                     </span>
                 </div>
 

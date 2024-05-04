@@ -1,5 +1,5 @@
 import React from 'react'
-import {proimg,comingsoon,lightcoinie,darkcoinie,imagene} from '../assets'
+import {proimg,comingsoon,lightcoinie,darkcoinie,imagene,jobhash, moochat, niravest, istore, mopp, isharp} from '../assets'
 import {FaGithub,FaFacebook,FaRegCaretSquareRight} from 'react-icons/fa'
 
 const Projects = () => {
@@ -9,8 +9,98 @@ const Projects = () => {
 
 
     const ProjE = [
-                {
+
+        {
             "id":1,
+            'coverImg':moochat,
+            'proTitle':'MooChat Ⓜ️',
+            'proDes':'Rails chatting website! Join the conversation with real-time chat, group creation, and customizable profiles with secure user authentication and authorization',
+            'langused1':'Rails',
+            'langused2':'Hotwire',
+            'langused3':'PostgreSQL',
+            'langused4':'Turbo',
+            'langused5':'CSS',
+            'codeLink':'https://github.com/samojeyinka/messanger-chat-and-group',
+            'demoLink':'https://github.com/samojeyinka/messanger-chat-and-group',
+
+        },
+
+        {
+            "id":2,
+            'coverImg':niravest,
+            'proTitle':'Niravest 💵',
+            'proDes':'Niravest is an investment platform with Ruby on Rails backend and React frontend. It offers user authentication, package creation, and watchlist management.',
+            'langused1':'Rails',
+            'langused2':'React',
+            'langused3':'PostgreSQL',
+            'langused4':'CSS',
+            'langused5':'PayStack',
+            'codeLink':'https://github.com/samojeyinka/Niravest-Investment-platform',
+            'demoLink':'https://github.com/samojeyinka/Niravest-Investment-platform',
+
+        },
+
+        {
+            "id":3,
+            'coverImg':istore,
+            'proTitle':'Istore 🏪',
+            'proDes':'Ecommerce website using Ruby on Rails, allowing administrators to manage products in multiple categories with details like name, description, price, quantity, size, and stocks. Customers can browse products, add them to cart, and place orders',
+            'langused1':'Rails',
+            'langused2':'Scaffold',
+            'langused3':'PostgreSQL',
+            'langused4':'SCSS',
+            'langused5':'Stripe',
+            'codeLink':'https://github.com/samojeyinka/Istore',
+            'demoLink':'https://github.com/samojeyinka/Istore',
+
+        },
+
+        {
+            "id":4,
+            'coverImg':mopp,
+            'proTitle':'Multi Blogging Platform 📝',
+            'proDes':'This rails project is an online publishing platform where individuals and organizations can create and share articles or blog posts on a wide range of topics. Follow one another and chat',
+            'langused1':'Rails',
+            'langused2':'Active Record',
+            'langused3':'PostgreSQL',
+            'langused4':'Sqlite in development',
+            'langused5':'CSS',
+            'codeLink':'https://github.com/samojeyinka/mopp',
+            'demoLink':'https://github.com/samojeyinka/mopp',
+
+        },
+
+        {
+            "id":5,
+            'coverImg':isharp,
+            'proTitle':'Isharp 📰',
+            'proDes':'Online publishing platform, enabling individuals and organizations to craft and distribute articles or blog posts covering a diverse array of topics.',
+            'langused1':'Rails',
+            'langused2':'Active Record',
+            'langused3':'PostgreSQL',
+            'langused4':'Sqlite in development',
+            'langused5':'CSS',
+            'codeLink':'https://github.com/samojeyinka/isharp',
+            'demoLink':'https://github.com/samojeyinka/isharp',
+
+        },
+
+        {
+            "id":6,
+            'coverImg':jobhash,
+            'proTitle':'JobHash 👊',
+            'proDes':' online platform that allows users to document their jobs/careers.',
+            'langused1':'Node.js',
+            'langused2':'Express.js',
+            'langused3':'React',
+            'langused4':'CSS',
+            'langused5':'JWT|Bcrypt',
+            'codeLink':'https://github.com/samojeyinka/Jobhash',
+            'demoLink':'https://jobhash.vercel.app',
+
+        },
+                {
+            "id":7,
             'coverImg':imagene,
             'proTitle':'imagene AI 🤖',
             'proDes':'Introducing Imagene, the ultimate AI image generator. Simply enter your keywords or ideas, and watch as Imagene transforms them into breathtaking visuals. ',
@@ -25,7 +115,7 @@ const Projects = () => {
         },
         
         {
-            "id":2,
+            "id":8,
             'coverImg':darkcoinie,
             'proTitle':'coinie 🪙',
             'proDes':'Coinie  allows users to register, login, and monitor the value,track & prices of various cryptocurrencies.Save favorite cryptos,Buy cryptos,edit profile & more',
@@ -40,7 +130,7 @@ const Projects = () => {
         },
 
         {
-            "id":3,
+            "id":9,
             'coverImg':proimg,
             'proTitle':'CAR RENTAL 🚗',
             'proDes':' online platform that allows users to rent cars for personal or business uses. The website provides an interface for searching, comparing, and reserving cars.',
@@ -63,7 +153,7 @@ const Projects = () => {
   return (
     <div className='bg-[#f9f9f9] w-full m-auto flex items-center justify-center overflow-hidden' id='projects'>
     
-        <div className='w-[80%] max-w-[1020px] py-[9rem]'>
+        <div className='w-[80%] max-w-[1020px] pb-[9rem]'>
             <h3 className='text-[1.25rem] uppercase text-[#147efb]'>Portfolio</h3>
             <h3 className='text-[1.5rem] font-bold py-2 mb-[4rem]'>Each project is a unique piece of development 🧩</h3>
 

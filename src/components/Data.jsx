@@ -59,9 +59,10 @@ const Data = () => {
       
       </h1>
 
-      <h3 className="home_subtitle">React Developer</h3>
+      <h3 className="home_subtitle">Fullstack Developer</h3>
       <p className="home_description w-[80%]">
-       Fullstack developer skilled in Ruby on Rails,Node.js/Express, and React.
+       Fullstack developer || Ruby on Rails || Node.js
+        || Express || React || PostgresSQL || MySQL || MongoDB
        </p>
       <SocialM/>
 

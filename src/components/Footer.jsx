@@ -26,7 +26,7 @@ const Footer = () => {
         <a href="#" target='_blank' className='home_social_icon'><FaStackOverflow/></a> */}
     </div>
 
-    <p className='footer-c text-white w-[100%] flex justify-center'>© 2023 Sam Ojeyinka. All rights reserved.</p>
+    <p className='footer-c text-white w-[100%] flex justify-center'>© 2024 Sam Ojeyinka. All rights reserved.</p>
 
         
 
