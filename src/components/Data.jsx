@@ -67,7 +67,7 @@ const Data = () => {
       <SocialM/>
 
 
-       <a href="#" className="button button--flex flex">Inbox me
+       <a href = "mailto:samuelojeyinka@gmail.com" target='_blank' className="button button--flex flex">Inbox me
        <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
